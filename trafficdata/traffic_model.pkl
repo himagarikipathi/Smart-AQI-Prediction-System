@@ -1,0 +1,6 @@
+from sklearn.linear_model import LinearRegression
+import joblib
+
+model = LinearRegression()
+# ...train your model...
+joblib.dump(model, "traffic_model.pkl")
